@@ -1,0 +1,38 @@
+/*
+Tablet 768px
+*/
+
+@media screen and (max-width: 768px)  {
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+/* 
+Mobile 480px
+*/
+
+@media screen and (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-right,
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+        padding-top: 3rem;
+    }
+}
